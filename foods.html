@@ -5,21 +5,26 @@
   <title>Quantified Self - Manage Foods</title>
 </head>
 <body>
+  <h1>All Foods</h1>
 
-  <table>
-    <tr>
-      <th>Name</th>
-      <th>Calories</th>
-      <th>Delete</th>
-    </tr>
-    <tr>
-  <div class="foods">
-    <!-- <td class="food-name"> Banana </td>
-    <td class="calories-food"> 4000</td>
-    <td class="delete_button"> <button data-food-id="${food.id}" class="delete_button" aria-label="Delete">Delete </button></td> -->
-  </div>
-  </tr>
-  </table>
+  <main class="all-foods" role="main">
+    <section class="food-list">
+      <div id="all-foods-info">
+        <article class="foods-info">
+          <p class="name">
+            <strong>Name</strong>
+          </p>
+          <p class="calories">
+            <strong>Calories</strong>
+          </p>
+          <div class="hidden"></div>
+        </article>
+        <article class="foods">
+        </article>
+      </div>
+    </section>
+  </main>
+
   <script
     src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
   </script>
@@ -28,3 +33,5 @@
 
 </body>
 </html>
+
+

@@ -9,24 +9,31 @@
 </head>
 <body>
   <h1>Manage Foods</h1>
+  <div class="manage-foods">
+    <form class="new-food">
+      <input type="text" name="name" placeholder="Name" id="new-name"></br>
+      <input type="number" name="calories" placeholder="Calories" id="new-calories">
+      <button type="submit" id="submit">Submit</button>
+    </form>
 
-  <main class="all-foods" role="main">
-    <section class="food-list">
-      <div id="all-foods-info">
-        <article class="food">
-          <p class="name">
-            <strong>Name</strong>
-          </p>
-          <p class="calories">
-            <strong>Calories</strong>
-          </p>
-          <div class="hidden"></div>
-        </article>
-        <article class="foods">
-        </article>
-      </div>
-    </section>
-  </main>
+    <main class="all-foods" role="main">
+      <section class="food-list">
+        <div id="all-foods-info">
+          <article class="food">
+            <p class="name">
+              <strong>Name</strong>
+            </p>
+            <p class="calories">
+              <strong>Calories</strong>
+            </p>
+            <div class="hidden"></div>
+          </article>
+          <article class="foods">
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
 
   <script
     src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>

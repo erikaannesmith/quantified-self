@@ -57,3 +57,12 @@ h1 {
 #new-calories-error {
   display: none;
 }
+
+#foodFilter {
+  margin-bottom: 12px;
+}
+
+h5 {
+  display: flex;
+  justify-content: center;
+}

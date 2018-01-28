@@ -57,3 +57,12 @@ h1 {
 #new-calories-error {
   display: none;
 }
+
+#myInput {
+  margin-bottom: 12px;
+}
+
+h5 {
+  display: flex;
+  justify-content: center;
+}

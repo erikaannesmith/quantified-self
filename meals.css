@@ -27,3 +27,7 @@ width: 200px;
     border-radius: 4px;
     padding: 10px;
 }
+.total-calorie{
+    display: flex;
+    justify-content: space-between;
+}

@@ -22,12 +22,12 @@ width: 200px;
     margin-top: 100px;
 }
 
-.snack-list, .lunch-list, .dinner-list, .breakfast-list {
+.snack-list, .lunch-list, .dinner-list, .breakfast-list, .totals-list {
     border: 1px solid black;
     border-radius: 4px;
     padding: 10px;
 }
-.total-calorie, .remaining-calorie {
+.total-calorie, .remaining-calorie, .goal-calorie, .consumed-calorie, .total-remaining-calorie {
     display: flex;
     justify-content: space-between;
 }
@@ -38,4 +38,15 @@ width: 200px;
 
 .negative-remaining {
     color: red;
+}
+
+.totals-list {
+    width: 450px;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }

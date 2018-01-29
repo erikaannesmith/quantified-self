@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.food {
+.food, .diary {
   display: flex;
   flex-direction: row;
   justify-content: space-between;

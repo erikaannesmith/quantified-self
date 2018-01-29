@@ -31,3 +31,11 @@ width: 200px;
     display: flex;
     justify-content: space-between;
 }
+
+.positive-remaining {
+    color: green;
+}
+
+.negative-remaining {
+    color: red;
+}

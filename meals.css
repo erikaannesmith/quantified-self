@@ -63,3 +63,8 @@ width: 200px;
 .add-meal-btns {
     margin-bottom: 15px;
 }
+
+.diary-food {
+    display: flex;
+    justify-content: space-between
+}

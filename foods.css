@@ -26,6 +26,14 @@
 h1 {
   display: flex;
   justify-content: center;
+  font-family: "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Arial", sans-serif;
+  background: #006DB6;
+  color: #FFFFFF;
+  width: 100%;
+  padding: 0 3%;
+  height: 80px;
+  top: 0;
+  z-index: 999;
 }
 
 .food-list {
@@ -42,6 +50,19 @@ h1 {
 
 #submit {
   margin: 10px;
+  padding: 10px 25px;
+  position: relative;
+  text-align: center;
+  border-radius: 20px 20px 20px 20px;
+  font-family: "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Arial", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #3399cc;
+  border: 0 none transparent;
+  color: #fff;
+
+
+
 }
 
 .manage-foods {

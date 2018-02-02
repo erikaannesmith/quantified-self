@@ -10,7 +10,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff
+
 }
 
 .food, .diary {
@@ -36,11 +36,9 @@ h1 {
   width: 100%;
   padding: 8px;
   height: 80px;
-  background-color: #ffffff;
   font-family: "Segoe UI",Arial,sans-serif;
   font-weight: 400;
   margin: 0px 10px;
-  border-bottom:  1px black solid;
   border-radius: 4px;
 }
 
@@ -48,6 +46,7 @@ h1 {
     border: 1px black solid;
     border-radius: 4px;
     padding: 18px;
+    background-color: #ffffff
 }
 
 .new-food {

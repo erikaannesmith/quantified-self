@@ -1,9 +1,16 @@
+body{
+    background: #f6f2ef;
+    color: #292c33;
+    font-weight: 300;
+    font-family: Lato,Helvetica,Roboto,Arial,sans-serif;
+}
 
 .all-foods {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #ffffff
 }
 
 .food, .diary {
@@ -26,14 +33,15 @@
 h1 {
   display: flex;
   justify-content: center;
-  font-family: "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Arial", sans-serif;
-  background: #006DB6;
-  color: #FFFFFF;
   width: 100%;
-  padding: 0 3%;
+  padding: 8px;
   height: 80px;
-  top: 0;
-  z-index: 999;
+  background-color: #ffffff;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+  margin: 0px 10px;
+  border-bottom:  1px black solid;
+  border-radius: 4px;
 }
 
 .food-list {
@@ -45,23 +53,22 @@ h1 {
 .new-food {
   display: flex;
   flex-direction: column;
-  width: 170px;
+  width: 200px;
 }
 
 #submit {
-  margin: 10px;
-  padding: 10px 25px;
-  position: relative;
-  text-align: center;
-  border-radius: 20px 20px 20px 20px;
-  font-family: "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Arial", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  background-color: #3399cc;
-  border: 0 none transparent;
-  color: #fff;
-
-
+  outline: none;
+    border-radius: 10px;
+    height: 40px;
+    background-color: #00c990;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    margin: 10px;
+    padding: 10px;
+    position: center;
+    text-transform: uppercase;
+    font-weight: 700;
 
 }
 
@@ -81,9 +88,11 @@ h1 {
 
 #foodFilter {
   margin-bottom: 12px;
+  width: 200px;
 }
 
 h5 {
   display: flex;
   justify-content: center;
+  font-size: 20px;
 }

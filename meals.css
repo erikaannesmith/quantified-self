@@ -102,9 +102,11 @@ background-color: #ffffff
 }
 
 
+
 .diary-food {
     display: flex;
     justify-content: space-between
+
 
 }
 

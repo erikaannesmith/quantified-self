@@ -1,10 +1,18 @@
 h1{
     display: flex;
     justify-content: center;
+    width: 100%;
+    padding: 8px;
+    height: 80px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 0px 10px;
+    border-radius: 4px;
 }
 .all-meals{
     display: flex;
     justify-content: space-evenly;
+
 }
 
 .breakfast, .lunch, .dinner, .snack{
@@ -13,6 +21,7 @@ h1{
     justify-content: space-between;
     border-bottom: 1px solid;
     padding: 1.5 px;
+
 }
 .name, .calories{
 width: 200px;
@@ -26,6 +35,7 @@ width: 200px;
     border: 1px solid black;
     border-radius: 4px;
     padding: 10px;
+background-color: #ffffff
 }
 .total-calorie, .remaining-calorie, .goal-calorie, .consumed-calorie, .total-remaining-calorie {
     display: flex;
@@ -54,6 +64,17 @@ width: 200px;
 
 .new-food-btn {
     margin-bottom: 20px;
+    outline: none;
+    border-radius: 10px;
+    height: 40px;
+    background-color: #00c990;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+    position: center;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 #diaryFilter {
@@ -64,7 +85,26 @@ width: 200px;
     margin-bottom: 15px;
 }
 
+#breakfast, #lunch, #dinner, #snack{
+  outline: none;
+    border-radius: 10px;
+    height: 40px;
+    background-color: #00c990;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    margin: 10px;
+    padding: 10px;
+    position: center;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+
 .diary-food {
     display: flex;
     justify-content: space-between
+
 }
+

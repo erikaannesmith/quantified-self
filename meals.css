@@ -84,6 +84,8 @@ background-color: #ffffff
 .add-meal-btns {
     margin-bottom: 15px;
 }
+<<<<<<< HEAD
+=======
 #breakfast, #lunch, #dinner, #snack{
   outline: none;
     border-radius: 10px;
@@ -99,8 +101,13 @@ background-color: #ffffff
     font-weight: 700;
 
 }
+>>>>>>> master
 
 .diary-food {
     display: flex;
     justify-content: space-between
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> master

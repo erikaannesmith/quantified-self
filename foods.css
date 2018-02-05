@@ -55,7 +55,7 @@ h1 {
   width: 200px;
 }
 
-#submit {
+#submit, #redirect {
   outline: none;
     border-radius: 10px;
     height: 40px;

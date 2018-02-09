@@ -33,7 +33,7 @@ Run the following commands in your terminal to start the server:
  npm start
 ```
 
-To view the application, visit http://localhost:3000.
+To view the application, visit https://erikaannesmith.github.io/quantified-self/.
 
 ## Built With
 JavaScript (language)

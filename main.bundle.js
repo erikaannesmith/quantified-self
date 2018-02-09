@@ -475,7 +475,7 @@ var postDeleteTotalRemaining = function postDeleteTotalRemaining(food, meal, cur
 };
 
 var redirectNewFood = exports.redirectNewFood = function redirectNewFood() {
-  document.location.href = 'http://localhost:8080/foods.html';
+  document.location.href = 'https://erikaannesmith.github.io/quantified-self/foods.html';
 };
 
 var updateRemainingCaloriesPostCreate = function updateRemainingCaloriesPostCreate(food, meal) {
@@ -659,7 +659,7 @@ function editFood() {
 }
 var redirectFoodDiary = exports.redirectFoodDiary = function redirectFoodDiary() {
   event.preventDefault();
-  document.location.href = 'http://localhost:8080/';
+  document.location.href = 'https://erikaannesmith.github.io/quantified-self/';
 };
 
 /***/ },

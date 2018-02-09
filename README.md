@@ -1,5 +1,5 @@
 # Quantified Self
-A calorie tracker project that is built with jQuery and an Express backend.
+A calorie tracker project that is built with jQuery and an Express backend. Publicly deployed at: https://erikaannesmith.github.io/quantified-self/
 
 Demo the application:
 
